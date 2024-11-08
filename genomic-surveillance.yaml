@@ -28,7 +28,7 @@ subsampling:
     # 한국 데이터를 모두 포함
     custom_sample:
       query: --query "(custom_data == 'yes')"
-      max_sequences: 1000  # 조정 가능한 시퀀스 최대 수
+      max_sequences: 200  # 조정 가능한 시퀀스 최대 수
 
     # 한국 데이터 컨텍스트 설정
     korea_context:
